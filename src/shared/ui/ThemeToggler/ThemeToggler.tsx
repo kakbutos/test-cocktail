@@ -2,6 +2,7 @@ import { FC } from 'react';
 import { useTheme } from '../../../app/providers/useTheme';
 import './ThemeToggler.scss';
 
+// Импортируем как URL строки
 import sunIconUrl from '../../assets/icons/sun.svg';
 import moonIconUrl from '../../assets/icons/moon.svg';
 
