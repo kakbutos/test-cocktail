@@ -122,6 +122,11 @@
       }
     }
 
+    &:last-child {
+      display: flex;
+      align-items: center;
+    }
+
     @media (max-width: 768px) {
       width: 100%;
       border-bottom: 1px solid var(--border-color);
