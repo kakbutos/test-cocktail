@@ -8,7 +8,7 @@
 
 ## Технологии
 
-- React 19
+- React
 - TypeScript
 - Redux Toolkit
 - React Router
