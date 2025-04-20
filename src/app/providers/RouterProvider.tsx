@@ -6,5 +6,8 @@ interface RouterProviderProps {
 }
 
 export const RouterProvider = ({ children }: RouterProviderProps) => {
-  return <BrowserRouter>{children}</BrowserRouter>;
+  // Добавляем basename для GitHub Pages
+  const basename = import.meta.env.DEV ? '/' : '/test-cocktail';
+  
+  return <BrowserRouter basename={basename}>{children}</BrowserRouter>;
 };

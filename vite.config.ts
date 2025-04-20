@@ -8,4 +8,5 @@ export default defineConfig({
     react(),
     svgr()
   ],
+  base: '/test-cocktail/', // Имя репозитория GitHub
 })
